@@ -25,12 +25,12 @@ const Header = () => {
                 <li><a>Search</a></li>
                 </ul>
             </div>
-            <div className="navbar-end">
-            <div className="form-control">
-                <input type="text" placeholder="Search" className="input input-bordered w-14 md:w-auto" />
-            </div>
-                <img className="bg-[#02B76C] rounded-full p-1" src="../../public/images/p.svg"/>
-            </div>
+            <div className="navbar-end space-x-8">
+                <div className="form-control">
+                    <input type="text" placeholder="Search" className="input input-bordered w-14 md:w-auto" />
+                </div>
+                    <img className="bg-[#02B76C] rounded-full p-1" src="../../public/images/p.svg"/>
+                </div>
             </div>
         </nav>
     </div>

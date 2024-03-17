@@ -3,6 +3,7 @@ import { FaFire } from "react-icons/fa";
 import PropTypes from 'prop-types';
 const Card = ({card,handleAddToSidebar}) => {
     const { recipe_image, recipe_name, short_description,ingredients, preparing_time, calories} = card;
+    const displayedIngredients = ingredients.slice(0, 3);
     return (
         <div className=" md:w-2/3 ">
         <div className="card card-compact w-96 bg-base-100  border-2 p-4">
@@ -18,7 +19,7 @@ const Card = ({card,handleAddToSidebar}) => {
                    
                     <ul className="list-disc">
                     {
-                        ingredients.map((ingredient,idx )=> <span key={idx}> <li> {ingredient}</li> </span>)
+                        displayedIngredients.map((ingredient,idx )=> <span key={idx}> <li> {ingredient}</li> </span>)
             }
                     </ul>
                 </div>

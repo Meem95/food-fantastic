@@ -7,10 +7,14 @@ import Sidebars from './components/Sidebars/Sidebars'
 export default function App() {
   const [sidebars, setSidebars] = useState([]);
 
-    const handleAddToSidebar = card => {
+    const handleAddToSidebar = (card) => {
+      const isCardAlreadyAdded = sidebars.some((sidebarCard) => sidebarCard.recipe_id === card.recipe_id);
+      if (!isCardAlreadyAdded) {
       const newSidebar = [...sidebars , card];
-      console.log(newSidebar);
       setSidebars(newSidebar);
+      }
+   
+     
     }
   return (
     <div>

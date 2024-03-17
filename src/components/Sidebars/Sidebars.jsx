@@ -19,7 +19,7 @@ const Sidebars = ({sidebars}) => {
                 <tbody>
                 {
                     sidebars.map((sidebar , idx) => <Sidebar key={sidebar.id} index={idx} sidebar={sidebar}></Sidebar>)
-        }       
+                    }       
                 
                 </tbody>
             </table>

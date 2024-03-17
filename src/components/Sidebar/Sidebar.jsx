@@ -4,12 +4,12 @@ const Sidebar = ({sidebar,index}) => {
     console.log(recipe_name)
     return (
         <tr className="hover:bg-gray-100">
-        <td>{index + 1}</td>
-        <td>{recipe_name}</td>
-        <td>{preparing_time}</td>
-        <td>{calories}</td>
-        <button className="btn bg-[#0BE58A] rounded-full">Preparing</button>
-    </tr>
+            <td>{index + 1}</td>
+            <td>{recipe_name}</td>
+            <td>{preparing_time}</td>
+            <td>{calories}</td>
+            <button className="btn bg-[#0BE58A] rounded-full">Preparing</button>
+        </tr>
             
         
     );
