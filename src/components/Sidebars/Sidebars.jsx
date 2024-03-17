@@ -29,7 +29,7 @@ const Sidebars = ({ sidebars }) => {
 
     return (
         <div className="lg:w-1/3 mt-6 border rounded-2xl p-2">
-            <h1 className="text-2xl text-center">Want to cook : {wantToCookCount}</h1>
+            <h1 className="text-2xl text-center">Want to Cook : {wantToCookCount}</h1>
 
             <div className="overflow-x-auto">
                 <table className="table">
@@ -55,7 +55,7 @@ const Sidebars = ({ sidebars }) => {
                     </tbody>
                 </table>
             </div>
-            <h1 className="text-2xl text-center">Currently cooking: {currentlyCooking.length} </h1>
+            <h1 className="text-2xl text-center">Currently Cooking: {currentlyCooking.length} </h1>
             <div className="overflow-x-auto">
                 <table className="table">
                     <thead>

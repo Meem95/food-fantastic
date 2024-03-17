@@ -7,6 +7,7 @@ import Sidebars from './components/Sidebars/Sidebars'
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
+import Footer from './components/Footer/Footer'
 export default function App() {
   const [sidebars, setSidebars] = useState([]);
 
@@ -28,12 +29,12 @@ export default function App() {
       <ToastContainer />
     <Header></Header>
     <Banner></Banner>
-    <div className='md:flex max-w-7xl mx-auto gap-8 justify-between'>
-      <Cards handleAddToSidebar = {handleAddToSidebar}></Cards>
-      <Sidebars sidebars = {sidebars}></Sidebars>
-    </div>
+      <div className='md:flex max-w-7xl mx-auto gap-8 justify-between'>
+        <Cards handleAddToSidebar = {handleAddToSidebar}></Cards>
+        <Sidebars sidebars = {sidebars}></Sidebars>
+      </div>
     
-      
+      <Footer></Footer>
     </div>
   )
 }

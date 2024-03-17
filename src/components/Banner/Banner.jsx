@@ -8,7 +8,7 @@ const Banner = () => {
                     <h1 className="text-5xl font-bold text-white">Discover an exceptional cooking class tailored for you!</h1>
                     <p className="py-6 text-white text-xl">Unlock the culinary worlds secrets with personalized cooking classes, designed to elevate your skills and tantalize your taste buds. </p>
                     <div className=" space-x-8 lg:mt-20">
-                        <button className="btn bg-[#0BE58A] rounded-full">Get Started</button>
+                        <button className="btn bg-[#0BE58A] rounded-full">Explore Now</button>
                         <button className="btn btn-neutral rounded-full text-white font-bold">Our Feedback</button>
                     </div>
                     
