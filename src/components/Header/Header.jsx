@@ -1,3 +1,4 @@
+import profile from '../../assets/images/p.svg'
 const Header = () => {
     return (
     <div>
@@ -32,7 +33,7 @@ const Header = () => {
                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 lg:-mt-8 ml-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
    
                 </div>
-                    <img className="bg-[#02B76C] rounded-full p-1 hidden lg:block" src="../../public/images/p.svg"/>
+                    <img className="bg-[#02B76C] rounded-full p-1 hidden lg:block" src={profile}/>
             </div>
             </div>
         </nav>
