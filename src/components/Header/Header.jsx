@@ -25,12 +25,15 @@ const Header = () => {
                 <li><a>Search</a></li>
                 </ul>
             </div>
-            <div className="lg:navbar-end hidden lg:space-x-8">
-                <div className="form-control">
-                    <input type="text" placeholder="Search" className="input input-bordered w-14 md:w-auto" />
+            <div className="lg:navbar-end  lg:space-x-8">
+                <div className="form-control hidden lg:block">
+                    <input type="text" placeholder="Search" className="input input-bordered w-full md:w-auto max-w-md text-center" />
+                   
+                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 lg:-mt-8 ml-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+   
                 </div>
-                    <img className="bg-[#02B76C] rounded-full p-1" src="../../public/images/p.svg"/>
-                </div>
+                    <img className="bg-[#02B76C] rounded-full p-1 hidden lg:block" src="../../public/images/p.svg"/>
+            </div>
             </div>
         </nav>
     </div>

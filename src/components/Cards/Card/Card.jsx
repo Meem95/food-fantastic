@@ -7,7 +7,7 @@ const Card = ({card,handleAddToSidebar}) => {
     return (
         <div >
         <div className="card card-compact lg:w-96 bg-base-100  border-2 p-4">
-            <figure><img src="../../public/images/food.jpeg" alt="Shoes" /></figure>
+            <figure><img className="w-[348px] h-[232px]" src={recipe_image} alt={recipe_name} /></figure>
             <div className="card-body">
                 <h2 className="card-title">{recipe_name}</h2>
                 <p>{short_description}</p>

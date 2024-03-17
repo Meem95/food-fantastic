@@ -1,7 +1,7 @@
 [
   {
     "recipe_id": 1,
-    "recipe_image": "image1.jpg",
+    "recipe_image": "https://i.ibb.co/2jGdwcG/food.jpg",
     "recipe_name": "Chicken Stir-Fry",
     "short_description": "Delicious chicken stir-fry with vegetables",
     "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaves", "400 g mushroom", "300 g broccoli", "150 g carrots"],
@@ -11,7 +11,7 @@
   
   {
     "recipe_id": 2,
-    "recipe_image": "image2.jpg",
+    "recipe_image": "https://i.ibb.co/ChHYMyc/fe29593b9f62c1def025edfb2345fe84.jpg",
     "recipe_name": "Vegetable Pasta",
     "short_description": "Healthy vegetable pasta with homemade sauce",
     "ingredients": ["250 g pasta", "2 tomatoes", "1 onion", "3 cloves garlic", "100 g spinach", "50 g parmesan cheese"],
@@ -20,7 +20,7 @@
   },
   {
     "recipe_id": 3,
-    "recipe_image": "image3.jpg",
+    "recipe_image": "https://i.ibb.co/hM5HCqq/Grilled-Salmon-foodiecrush-com-023.jpg",
     "recipe_name": "Grilled Salmon",
     "short_description": "Fresh grilled salmon with lemon and herbs",
     "ingredients": ["400 g salmon fillet", "1 lemon", "50 g fresh dill", "2 cloves garlic", "100 g cherry tomatoes", "50 g olive oil"],
@@ -29,7 +29,7 @@
   },
   {
     "recipe_id": 4,
-    "recipe_image": "image4.jpg",
+    "recipe_image": "https://i.ibb.co/3csg4z0/istockphoto-478249440-1024x1024.jpg",
     "recipe_name": "Quinoa Salad",
     "short_description": "Colorful quinoa salad with mixed vegetables",
     "ingredients": ["200 g quinoa", "1 cucumber", "1 bell pepper", "100 g feta cheese", "50 g olives", "50 g olive oil"],
@@ -38,7 +38,7 @@
   },
   {
     "recipe_id": 5,
-    "recipe_image": "image5.jpg",
+    "recipe_image": "https://i.ibb.co/5Tqc1sF/istockphoto-1333647378-612x612.jpg",
     "recipe_name": "Beef Tacos",
     "short_description": "Spicy beef tacos with salsa and guacamole",
     "ingredients": ["300 g ground beef", "1 onion", "2 tomatoes", "100 g lettuce", "50 g cheddar cheese", "6 taco shells"],
@@ -47,7 +47,7 @@
   },
   {
     "recipe_id": 6,
-    "recipe_image": "image6.jpg",
+    "recipe_image": "https://i.ibb.co/K95xRB7/MUSHROOM-RISOTTO-recipe.jpg",
     "recipe_name": "Mushroom Risotto",
     "short_description": "Creamy mushroom risotto with parmesan",
     "ingredients": ["300 g arborio rice", "200 g mushrooms", "1 onion", "2 cloves garlic", "100 ml white wine", "50 g butter"],
