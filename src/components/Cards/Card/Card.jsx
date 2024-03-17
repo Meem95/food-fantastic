@@ -5,8 +5,8 @@ const Card = ({card,handleAddToSidebar}) => {
     const { recipe_image, recipe_name, short_description,ingredients, preparing_time, calories} = card;
     const displayedIngredients = ingredients.slice(0, 3);
     return (
-        <div className=" md:w-2/3 ">
-        <div className="card card-compact w-96 bg-base-100  border-2 p-4">
+        <div >
+        <div className="card card-compact lg:w-96 bg-base-100  border-2 p-4">
             <figure><img src="../../public/images/food.jpeg" alt="Shoes" /></figure>
             <div className="card-body">
                 <h2 className="card-title">{recipe_name}</h2>

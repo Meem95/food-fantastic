@@ -12,7 +12,10 @@ const Cards = ({handleAddToSidebar}) => {
     }
         ,[])
     return (
-        <div className="grid lg:grid-cols-2 gap-6 space-x-4">
+       
+        <div className=" md:w-2/3 mx-auto">
+       
+        <div  className="grid lg:grid-cols-2 gap-3 ">
         {
             cards.map(card =>
             <Card key={card.id}
@@ -22,6 +25,9 @@ const Cards = ({handleAddToSidebar}) => {
              >
             </Card>)
         }
+        </div>
+       
+        
         </div>
     );
 };

@@ -14,7 +14,12 @@ const Banner = () => {
                 </div>
             </div>
         </div>
-        
+        <div className="text-center my-8 md:w-2/3 mx-auto">
+            <h1 className="text-4xl font-bold mb-3">Our Recipes</h1>
+            <p className="">
+            Our Recipes serves as a curated culinary showcase, meticulously crafted to tantalize taste buds and ignite culinary passions. With an array of handpicked dishes ranging from timeless classics to innovative creations, it offers a gourmet experience designed to inspire and delight. 
+            </p>
+        </div>
     </div>
     );
 };
