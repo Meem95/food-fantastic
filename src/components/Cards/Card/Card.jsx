@@ -1,6 +1,8 @@
+import { BsStopwatch } from "react-icons/bs";
+import { FaFire } from "react-icons/fa";
 const Card = () => {
     return (
-        <div className="grid lg:grid-cols-2 gap-6 space-x-4 md:w-2/3 ">
+        <div className=" md:w-2/3 ">
         <div className="card card-compact w-96 bg-base-100  border-2 p-4">
             <figure><img src="../../public/images/food.jpeg" alt="Shoes" /></figure>
             <div className="card-body">
