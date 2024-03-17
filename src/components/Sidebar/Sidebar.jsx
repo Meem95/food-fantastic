@@ -1,30 +1,21 @@
-const Sidebar = () => {
+import PropTypes from 'prop-types';
+const Sidebar = ({sidebar,index}) => {
+    const {recipe_name,preparing_time,calories} = sidebar;
+    console.log(recipe_name)
     return (
-        <div className="w-1/3 m-4 p-4">
-        <div className="overflow-x-auto">
-            <table className="table">
-                <thead>
-                <tr>
-                    <th></th>
-                    <th>Name</th>
-                    <th>Time</th>
-                    <th>Calories</th>
-                </tr>
-                </thead>
-                <tbody>
-                
-                <tr className="hover">
-                    <th>1</th>
-                    <td>Spaghetti Bolognese</td>
-                    <td>30 minutes</td>
-                    <td>600 calories</td>
-                </tr>
-                </tbody>
-            </table>
-</div>
+        <tr className="hover:bg-gray-100">
+        <td>{index + 1}</td>
+        <td>{recipe_name}</td>
+        <td>{preparing_time}</td>
+        <td>{calories}</td>
+        <button className="btn bg-[#0BE58A] rounded-full">Preparing</button>
+    </tr>
             
-        </div>
+        
     );
 };
-
+Sidebar.propTypes = {
+    sidebar :PropTypes.object,
+    index: PropTypes.number.isRequired
+}
 export default Sidebar;
